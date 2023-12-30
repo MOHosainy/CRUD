@@ -1,0 +1,200 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/ind.css">
+    <link href="https://cdn.jsdelivr.xyz/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.xyz/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</head>
+
+  <!-- <ul class="product">
+    <img src="image/0507e808a874d9cd761bd24d9f37abff.jpg"  width="100"  height="100" alt="">
+    <li price="1000">iphon 12</li>
+    <img src="image/1-kingsman0203-17-2682fulla.jpg"  width="100"  height="100" alt="">
+    <li price="2000">iphon 14</li>
+    <img src="image/27cc504721e7d4abf51e60b78b75f2b4.jpg" width="100"  height="100"  alt="">
+    <li price="3000">iphon 15</li>
+
+    <img src="image/0507e808a874d9cd761bd24d9f37abff.jpg"  width="100"  height="100" alt="">
+    <li price="1000">iphon 12</li>
+    <img src="image/1-kingsman0203-17-2682fulla.jpg"  width="100"  height="100" alt="">
+    <li price="2000">iphon 14</li>
+    <img src="image/27cc504721e7d4abf51e60b78b75f2b4.jpg" width="100"  height="100"  alt="">
+    <li price="3000">iphon 15</li>
+
+
+    <img src="image/0507e808a874d9cd761bd24d9f37abff.jpg"  width="100"  height="100" alt="">
+    <li price="1000">iphon 12</li>
+    <img src="image/1-kingsman0203-17-2682fulla.jpg"  width="100"  height="100" alt="">
+    <li price="2000">iphon 14</li>
+    <img src="image/27cc504721e7d4abf51e60b78b75f2b4.jpg" width="100"  height="100"  alt="">
+    <li price="3000">iphon 15</li>
+  </ul>
+
+  <div id="div1">
+
+  </div>
+
+
+  <div class="final"></div>
+
+  <button id="showprice" style="display: none;">Show Price</button>
+ -->
+
+
+
+
+<!-- <ol id="demo"></ol> -->
+<!-- 
+<div id="min"></div>
+
+
+<div id="max"></div> -->
+
+ 
+<!-- <button onclick=" random()">hello</button> -->
+
+<!-- <main>
+  <section>
+    <div class="inputs-form mb-2">
+      <label for="productName">ProductName</label>
+      <input type="text" id="productName">
+
+    </div>
+
+    <div class="inputs-form mb-2">
+      <label for="productPrice">Noo3</label>
+     <input type="text" id="productPrice"> -->
+      <!-- <textarea name="" id="productPrice" ></textarea>
+
+    </div>
+
+    <div class="inputs-form mb-2">
+      <label for="productCar">Category</label>
+      <textarea name="" id="productCar" ></textarea>
+
+    </div>
+
+    <div class="inputs-form mb-2">
+      <label for="productSize">Model</label>
+      <textarea name="" id="productSize" ></textarea>
+
+    </div>
+
+    <div class="inputs-form mb-2">
+      <label for="productModel">Price</label>
+      <textarea name="" id="productModel" ></textarea>
+
+    </div>
+
+    <button class="btn"> add</button>
+  </section>
+</main> - -->
+<!-- 
+<section>
+  <main>
+    <div>
+    <label for="cat">category</label>
+    <textarea name="" id="cat" ></textarea>
+
+  </div> <div>
+    <label for="cat">category</label>
+    <textarea name="" id="cat" ></textarea>
+
+  </div>
+
+  <div>
+    <label for="cat">category</label>
+    <textarea name="" id="cat" ></textarea>
+
+  </div>
+  <div>
+    <label for="cat">category</label>
+    <textarea name="" id="cat" ></textarea>
+
+  </div>
+  <button  onclick="ca()">rrr</button>
+  <p id="para"></p>
+    
+  </main>
+</section> -->
+
+
+<main class="w-75  bg-info p-3 mx-auto">
+  <section>
+    <div class="input-form mb-2">
+      <label for="productName">ProductName</label>
+      <input oninput="regaxName()" type="text" class="form-control mt-2 w-100  is-invalid  " id="productName" placeholder="ProductName">
+
+      <p class="alert alert-danger d-none" id="massagename"> invalid</p>
+
+    </div>
+    <!-- <hr> -->
+
+    <div class="input-form mb-2">
+      <label for="productPrice">ProductPrice</label>
+      <input  oninput="regaxPrice()"  type="text" class="form-control mt-2 w-100 is-invalid " id="productPrice" placeholder="productPrice">
+
+      <p class="alert alert-danger d-none" id="massageprice"> invalid</p>
+
+    </div>
+
+     <div class="input-form mb-2">
+      <label for="productDate">ProductDate</label>
+      <input type="text" oninput="regaxDate()"  class="form-control mt-2   w-100  is-invalid" id="productDate" placeholder="productDate">
+
+      <p class="alert alert-danger d-none" id="massagedate"> invalid</p>
+
+
+
+    </div>
+
+    
+    <button class="btn btn-primary h-25 w-100" id="addbtn"  onclick="print()">Add Product</button>
+
+    <button class="btn btn-primary h-25 w-100 d-none"  id="updatebtn"  onclick="updateProduct()">Update Product</button>
+
+
+  </section>
+
+  <input id="search"  oninput="searchInput()"  type="text" class="form-control  w-75 mx-auto my-3" placeholder="search...">
+
+
+  <section class="bg-danger mt-4">
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Price</th>
+          <th>Date</th>
+          <th>Update  &nbsp  &nbsp Delete</th>
+          <!-- <th>up</th> -->
+        </tr>
+      </thead>
+
+      <tbody id="tableData">
+      </tbody>
+
+    </table>
+  </section>
+  
+
+</main>
+
+
+
+
+<script src="js/script.js"></script>
+
+    <script src="https://cdn.jsdelivr.xyz/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.xyz/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
